@@ -1,0 +1,177 @@
+# EESchema Netlist Version 1.1 created  Mon 01 Aug 2011 06:59:01 PM PDT
+(
+ ( /4D4C775D C1 C1 0.33_uF
+  ( 1 N-000032 )
+  ( 2 GND )
+ )
+ ( /4E29C306 CAPPOL C2 CP1
+  ( 1 /VIN )
+  ( 2 GND )
+ )
+ ( /4E28790A 5X2_SHRD_HEADER P1 CONN_5X2
+  ( 1 /VIN )
+  ( 2 /SCK )
+  ( 3 /5V )
+  ( 4 /MISO )
+  ( 5 /3V3 )
+  ( 6 /MOSI )
+  ( 7 GND )
+  ( 8 /D5 )
+  ( 9 /D2 )
+  ( 10 /D6 )
+ )
+ ( /4E287A89 4X2_SHRD_HEADER P2 CONN_4X2
+  ( 1 /VIN )
+  ( 2 /HRX )
+  ( 3 /5V )
+  ( 4 /HTX )
+  ( 5 /3V3 )
+  ( 6 /D3 )
+  ( 7 GND )
+  ( 8 /D4 )
+ )
+ ( /4D4C76B0 PIN_ARRAY_2X2 P3 CONN_2X2
+  ( 1 N-000016 )
+  ( 2 N-000032 )
+  ( 3 ? )
+  ( 4 ? )
+ )
+ ( /4E2879C0 4X2_SHRD_HEADER P4 CONN_4X2
+  ( 1 /VIN )
+  ( 2 /SCL )
+  ( 3 /5V )
+  ( 4 /SDA )
+  ( 5 /3V3 )
+  ( 6 /D3 )
+  ( 7 GND )
+  ( 8 /D4 )
+ )
+ ( /4E287B3E 4X2_SHRD_HEADER P5 CONN_4X2
+  ( 1 /VIN )
+  ( 2 /SRX2 )
+  ( 3 /5V )
+  ( 4 /STX2 )
+  ( 5 /3V3 )
+  ( 6 /D2 )
+  ( 7 GND )
+  ( 8 /D5 )
+ )
+ ( /4D8FA059 PIN_ARRAY_4X1 P6 CONN_4
+  ( 1 /VIN )
+  ( 2 GND )
+  ( 3 /SRX1 )
+  ( 4 /STX1 )
+ )
+ ( /4E287BD6 6X2_SHRD_HEADER P7 CONN_6X2
+  ( 1 /VIN )
+  ( 2 /D4 )
+  ( 3 /5V )
+  ( 4 /D5 )
+  ( 5 /3V3 )
+  ( 6 /A0 )
+  ( 7 GND )
+  ( 8 /A1 )
+  ( 9 /D2 )
+  ( 10 /A2 )
+  ( 11 /D3 )
+  ( 12 /A3 )
+ )
+ ( /4E287D41 6X2_SHRD_HEADER P8 CONN_6X2
+  ( 1 /VIN )
+  ( 2 /D4 )
+  ( 3 /5V )
+  ( 4 /D5 )
+  ( 5 /3V3 )
+  ( 6 /A0 )
+  ( 7 GND )
+  ( 8 /A1 )
+  ( 9 /D2 )
+  ( 10 /A2 )
+  ( 11 /D3 )
+  ( 12 /A3 )
+ )
+ ( /4D8FACF2 DCJACK_2PIN P9 CONN_2
+  ( 1 /VIN )
+  ( 2 GND )
+ )
+ ( /4E29C158 R3 R1 4.7k
+  ( 1 /5V )
+  ( 2 /SCL )
+ )
+ ( /4E29C15E R3 R2 4.7k
+  ( 1 /5V )
+  ( 2 /SDA )
+ )
+ ( /4D4C7738 R4 R3 68
+  ( 1 N-000032 )
+  ( 2 /5V )
+ )
+ ( /4D8FA092 POT296 RV1 10k
+  ( 1 /5V )
+  ( 2 /POT )
+  ( 3 GND )
+ )
+ ( /4D4C540F arduino_nano U1 ARDUINO_NANO
+  ( 1 /HTX )
+  ( 2 /HRX )
+  ( 3 N-000016 )
+  ( 4 GND )
+  ( 5 /D2 )
+  ( 6 /D3 )
+  ( 7 /D4 )
+  ( 8 /D5 )
+  ( 9 /D6 )
+  ( 10 /STX1 )
+  ( 11 /SRX1 )
+  ( 12 /STX2 )
+  ( 13 /SRX2 )
+  ( 14 /MOSI )
+  ( 15 /MISO )
+  ( 16 /SCK )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 /A0 )
+  ( 20 /A1 )
+  ( 21 /A2 )
+  ( 22 /A3 )
+  ( 23 /SDA )
+  ( 24 /SCL )
+  ( 25 ? )
+  ( 26 /POT )
+  ( 27 /5V )
+  ( 28 ? )
+  ( 29 GND )
+  ( 30 /VIN )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

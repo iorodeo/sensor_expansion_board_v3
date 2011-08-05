@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-19)-testing date = Mon 01 Aug 2011 06:59:01 PM PDT
+
+BeginCmp
+TimeStamp = /4D4C775D;
+Reference = C1;
+ValeurCmp = 0.33_uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E29C306;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = CAPPOL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E28790A;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = 5X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E287A89;
+Reference = P2;
+ValeurCmp = CONN_4X2;
+IdModule  = 4X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4C76B0;
+Reference = P3;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2879C0;
+Reference = P4;
+ValeurCmp = CONN_4X2;
+IdModule  = 4X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E287B3E;
+Reference = P5;
+ValeurCmp = CONN_4X2;
+IdModule  = 4X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8FA059;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E287BD6;
+Reference = P7;
+ValeurCmp = CONN_6X2;
+IdModule  = 6X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E287D41;
+Reference = P8;
+ValeurCmp = CONN_6X2;
+IdModule  = 6X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8FACF2;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = DCJACK_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E29C158;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E29C15E;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4C7738;
+Reference = R3;
+ValeurCmp = 68;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8FA092;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = POT296;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4C540F;
+Reference = U1;
+ValeurCmp = ARDUINO_NANO;
+IdModule  = arduino_nano;
+EndCmp
+
+EndListe
