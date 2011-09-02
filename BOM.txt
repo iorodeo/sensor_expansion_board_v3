@@ -1,0 +1,24 @@
+Bill of materials: Sensor expansion board v3.0
+==================================================
+
+Ref         Quantity	Description                  Vendor                     Part #
+--------------------------------------------------------------------------------------------------
+C1             1        0.33 uF capacitor            Jameco                     544930
+C2             1        10 uF capacitor              Digikey                    478-4170-ND
+P1             1        5 x 2 male shrouded header   Digikey                    S9169-ND
+P2, P4, P5     3        4 x 2 male shrouded header   Major League Electronics   
+P3             1        2x2 connector                Jameco                     109516
+P6             1        4x1 connector                Digikey                    3M9449-ND
+P7, P8         2        6 x 2 male shrouded header   Major League Electronics
+P9             1        2.1mm jack                   Jameco                     137673
+R1, R2         2        4.7K Ohm resistor, 1/4W, 5%  Digikey                    CF14JT4K70CT-ND
+R3             1        68 Ohm resistor, 1/4W        Jameco                     661221
+RV1            1        Potentiometer                Digikey                    CT2264-ND
+U1             1        Arduino Nano                 Gravitech	
+               1        LCD display                  Sparkfun                   LCD-09351
+
+Additional: for programming the LCD
+
+               1        6 pos right angle connector  Digikey	                3M9479-ND	    
+
+
