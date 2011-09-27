@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 01 Aug 2011 06:49:35 PM PDT
+EESchema Schematic File Version 2  date Tue 27 Sep 2011 02:36:47 PM PDT
 LIBS:power
 LIBS:arduino_nano
 LIBS:device
@@ -31,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:nano_photogate-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 aug 2011"
+Date "27 sep 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1150 6700 0    60   ~ 0
+Problems/Issues:\n1. SPI header incorrect in layout - should be 5x2\n2. 3V3 is not connected on Arduino\n3. make I2C pullups selectable between 5V and 3V3
+NoConn ~ 2950 5300
 NoConn ~ 3700 2300
 Wire Wire Line
 	2000 2300 1700 2300
